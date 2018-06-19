@@ -114,13 +114,13 @@ root Plot.c
 
 For the MNIST dataset:
 The loss function vs. training epoches, the loss function indicate that the CNN converge after about 200 epoches.
-![loss function](https://github.com/horse007666/ResNet/tree/blob/master/Plot/mnist_loss.png)
+![loss function](https://github.com/horse007666/ResNet/blob/master/Plot/mnist_loss.png)
 
 use 1000 training data to validate
-![loss function](https://github.com/horse007666/ResNet/tree/blob/master/Plot/mnist_train_error.png)
+![loss function](https://github.com/horse007666/ResNet/blob/master/Plot/mnist_train_error.png)
 
 use 10000 test data set to validate 
-![loss function](https://github.com/horse007666/ResNet/tree/blob/master/Plot/mnist_test_error.png)
+![loss function](https://github.com/horse007666/ResNet/blob/master/Plot/mnist_test_error.png)
 
 
 
