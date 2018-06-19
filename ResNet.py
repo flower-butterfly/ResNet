@@ -235,23 +235,25 @@ def main(_):
                         padding='SAME')
     relu11 = tf.nn.relu(tf.nn.bias_add(conv11, conv11_biases))
 
-    relu11=relu11+relu
+#    relu11=relu11+relu
+#
+#    conv12 = tf.nn.conv2d(relu11,
+#                        conv12_weights,
+#                        strides=[1, 1, 1, 1],
+#                        padding='SAME')
+#    relu12 = tf.nn.relu(tf.nn.bias_add(conv12, conv12_biases))
+#
+#    relu12=relu12+relu11
+#
+#    conv13 = tf.nn.conv2d(relu12,
+#                        conv13_weights,
+#                        strides=[1, 1, 1, 1],
+#                        padding='SAME')
+#    relu13 = tf.nn.relu(tf.nn.bias_add(conv13, conv13_biases))
+#
+#    relu=relu13+relu12
 
-    conv12 = tf.nn.conv2d(relu11,
-                        conv12_weights,
-                        strides=[1, 1, 1, 1],
-                        padding='SAME')
-    relu12 = tf.nn.relu(tf.nn.bias_add(conv12, conv12_biases))
-
-    relu12=relu12+relu11
-
-    conv13 = tf.nn.conv2d(relu12,
-                        conv13_weights,
-                        strides=[1, 1, 1, 1],
-                        padding='SAME')
-    relu13 = tf.nn.relu(tf.nn.bias_add(conv13, conv13_biases))
-
-    relu=relu13+relu12
+    relu=relu11+relu
 
 #######################################################
 

@@ -232,7 +232,7 @@ def main(_):
                         strides=[1, 1, 1, 1],
                         padding='SAME')
     relu11 = tf.nn.relu(tf.nn.bias_add(conv11, conv11_biases))
-#
+
 #    conv12 = tf.nn.conv2d(relu11,
 #                        conv12_weights,
 #                        strides=[1, 1, 1, 1],
