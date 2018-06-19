@@ -1,4 +1,4 @@
-#ResNet Recurrence
+# ResNet Recurrence
 
 This repository contains codes using TensorFlow to recurrence the ResNet CNN
 1.[https://arxiv.org/pdf/1512.03385.pdf](https://arxiv.org/pdf/1512.03385.pdf)
@@ -8,7 +8,7 @@ This repository contains codes using TensorFlow to recurrence the ResNet CNN
 datasets: mnist, cifar50
 
 
-##preparation
+## preparation
 
 1. operation system
 only Ubuntu16 support the newest TensorFlow, check version the operation system
@@ -26,13 +26,13 @@ sudo apt-get install --upgrade python3
 
 3. install pip and pip3
 first, install setuptools
-'''
+```
 get --no-check-certificate  https://pypi.python.org/packages/source/s/setuptools/setuptools-19.6.tar.gz#md5=c607dd118eae682c44ed146367a17e26
 tar -zxvf setuptools-19.6.tar.gz
 cd setuptools-19.6
 python3 setup.py build
 sudo python3 setup.py install
-'''
+```
 
 second, install pip,pip3
 ```
@@ -75,7 +75,7 @@ just follow the website to install ROOT:
 
 3. ImageNet
 
-##using TensorFlow to construct a CNN
+## using TensorFlow to construct a CNN
 the CNN(convolutional neural network) usually contains 3 parts:
 1. covolutional layer
 2. pooling layer
@@ -108,9 +108,9 @@ python3 Plain_Net.py
 
 ## Plot and compare to other result
 use ROOT for plotting:
-'''
+```
 root Plot.c
-'''
+```
 
 For the MNIST dataset:
 The loss function vs. training epoches, the loss function indicate that the CNN converge after about 200 epoches.
