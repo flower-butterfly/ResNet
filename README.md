@@ -1,8 +1,8 @@
 # ResNet Recurrence
 
 This repository contains codes using TensorFlow to recurrence the ResNet CNN
-1.[https://arxiv.org/pdf/1512.03385.pdf](https://arxiv.org/pdf/1512.03385.pdf)
-2.[https://arxiv.org/pdf/1603.05027.pdf](https://arxiv.org/pdf/1603.05027.pdf)
+1. [https://arxiv.org/pdf/1512.03385.pdf](https://arxiv.org/pdf/1512.03385.pdf)
+2. [https://arxiv.org/pdf/1603.05027.pdf](https://arxiv.org/pdf/1603.05027.pdf)
 
 
 datasets: mnist, cifar50
